@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./Norsebold.otf");
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+}
+
+.image-section {
+  background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
+  background-size: cover;
+  flex: 3;
+  position: relative;
+  background-position: center;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  padding: 1em 0;
+}
+
+.banner-logo {
+  height: 16vh;
+}
+
+.banner-text {
+  font-size: 12vh;
+  color: #fff;
+  font-family: "Norse Bold";
+}
+
+.main-section {
+  flex: 5;
+}
