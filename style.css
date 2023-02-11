@@ -77,14 +77,14 @@ body {
 }
 
 .form {
-  /* border-top: 0.5px solid rgba(119, 119, 119, 0.1);
-  border-bottom: 0.5px solid rgba(119, 119, 119, 0.1); */
-  padding-left: var(--left-space);
+  border-top: 0.5px solid rgba(119, 119, 119, 0.1);
+  border-bottom: 0.5px solid rgba(119, 119, 119, 0.1);
+  padding: 2.5em var(--left-space);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1.5em;
-  width: 70%;
+  box-shadow: 0 5px 5px 4px rgb(0 0 0 / 10%);
 }
 
 .form-group {
@@ -110,7 +110,7 @@ input {
 .btn {
   border: none;
   padding: 0.8em 2.5em;
-  margin-left: var(--left-space);
+  margin: 2em var(--left-space);
   border-radius: 0.5em;
   cursor: pointer;
   color: #fff;
