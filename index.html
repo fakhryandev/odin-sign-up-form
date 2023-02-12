@@ -50,11 +50,13 @@
             </div>
             <div class="form-group">
               <label>Password</label>
-              <input type="new-password" />
+              <input type="new-password" id="password" />
+              <span class="danger">* Passwords do not match</span>
             </div>
             <div class="form-group">
               <label>Confirm Password</label>
-              <input type="new-password" />
+              <input type="new-password" id="confirmPassword" />
+              <span class="danger">* Passwords do not match</span>
             </div>
           </div>
           <button class="btn btn-primary" type="submit">Create Account</button>
@@ -62,5 +64,6 @@
         <p class="text-question">Already have an account ? <a>Log in</a></p>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

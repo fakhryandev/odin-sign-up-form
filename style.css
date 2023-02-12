@@ -119,8 +119,23 @@ input:target {
 }
 
 input:focus-visible {
-  outline: 1px solid blue !important;
+  outline: 1px solid blue;
   box-shadow: 2px 10px 18px #88888831;
+}
+
+input.not-match {
+  outline: 1px solid red;
+}
+
+.danger {
+  font-size: 0.7em;
+  font-weight: 500;
+  color: red;
+  display: none;
+}
+
+.danger.active {
+  display: inline;
 }
 
 .btn {
